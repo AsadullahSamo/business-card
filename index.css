@@ -1,19 +1,154 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('./assets/fonts/Poppins-SemiBold.ttf');
 }
 
-.footer span {
-  font-size: 14px;
+body{
+  background-color: #0E0E0E;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+/* Center the below div*/
+
+div.container {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  background-color: #C8E6C9;
+}
+
+div.card {
+  margin: auto;
+  width: 87%;
+  height: 70vh;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+div.card div.left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  background-color: #2E7D32;
+  border-radius: 15px 0 0 15px;
+  font-family: Poppins-Regular;
+  color: white;
+}
+div.images {
+  margin-top: 150px;
+}
+figure img{
+  height: 17px;
+}
+
+figure p {
+  font-size: 12px;
+}
+figure p:nth-child(3) {
+  color: #DFECE0;
+  margin: -5px 0 5px 
+}
+
+figure img:nth-child(1) {
+  float: left;
+  margin-right: 5px;
+}
+
+hr {
+  margin: 25px auto;
+  border: 6px solid #DFECE0;
+}
+
+div.images > p {
+  font-size: 12px;
+  color: #DFECE0;
+  margin-left: 17%;
+}
+
+div.left ul img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+div.right div.content {
+  display: flex;
+  flex-direction: column;
+}
+
+div.right img {
+  float: left;
+  height: 350px;
+  width: 220px;
+  object-fit: cover;
+  margin: 30px 20px 30px -35px;
+}
+
+div.right div.content p{
+  margin-top: 30px;
+  font-family: Poppins-SemiBold;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+div.right div.content p span#zac {
+  color: #2E7D32;
+}
+
+div.right div.content p.titles {
+  font-size: 10px;
+  color: #373737;
+  margin-top: -20px;
+  font-weight: bolder;
+}
+
+div.right div.content p:nth-child(3) {
+  color: #7e7c7c;
+  margin : 5px 0 35px;
+  font-size: 10px;
+  width: 95%;
+}
+
+div.right div.content p:nth-child(4) {
+  font-size: 12px;
+  color: #4c4949;
+}
+
+div.right ul {
+  margin-top: 5px;
+  margin-left: -15px;
+  font-family: Poppins-Regular;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+div.right div.circle-1, div.right div.circle-2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 10% 36% 0% 90%;
+  background-color: #2E7D32;
+  float: right;
+  margin-top: 0;
+  margin-right: -2px;
+}
+
+/* div.right div.circle-2 {
+  width: 60px;
+  height: 50px;
+  border-radius: 0%;
+  background-color: #C8E6C9;
+  margin-top: -40px;
+  margin-right: -70px;
+} */
