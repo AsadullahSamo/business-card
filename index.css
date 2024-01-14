@@ -134,7 +134,7 @@ div.right ul {
   font-weight: 500;
 }
 
-div.right div.circle-1, div.right div.circle-2 {
+div.right div.circle {
   width: 50px;
   height: 50px;
   border-radius: 10% 36% 0% 90%;
@@ -143,12 +143,3 @@ div.right div.circle-1, div.right div.circle-2 {
   margin-top: 0;
   margin-right: -2px;
 }
-
-/* div.right div.circle-2 {
-  width: 60px;
-  height: 50px;
-  border-radius: 0%;
-  background-color: #C8E6C9;
-  margin-top: -40px;
-  margin-right: -70px;
-} */
